@@ -1,0 +1,39 @@
+.meus-favoritos-container{
+    margin: 15px 0;
+    width: 800px;
+}
+
+.meus-favoritos-container h1{
+    margin-bottom: 30px;
+}
+
+.meus-favoritos-container ul{
+    list-style: none;
+}
+
+.meus-favoritos-container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.meus-favoritos-container ul li strong{
+    font-size: 18px;
+}
+
+.meus-favoritos-container ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.meus-favoritos-container ul li div a{
+    text-decoration: none;
+    color: black;
+}
+
+.meus-favoritos-container ul li div button{
+    cursor: pointer;
+}

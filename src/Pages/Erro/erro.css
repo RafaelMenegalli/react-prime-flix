@@ -1,0 +1,21 @@
+.not-found-container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found-container h1{
+    font-size: 120px;
+}
+
+.not-found-container a{
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
