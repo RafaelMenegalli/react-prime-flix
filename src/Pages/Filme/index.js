@@ -38,6 +38,7 @@ function Filme() {
     }, [navigate, id])
 
     function salvarFilme() {
+        console.log("Valor do filme :::>>")
         const minhaLista = localStorage.getItem("@primeFlix")
         const filmesSalvos = JSON.parse(minhaLista) || []
         const hasFilme = filmesSalvos.some((filmeSalvo) => filmeSalvo.id === filme.id)
